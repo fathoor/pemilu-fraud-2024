@@ -11,8 +11,8 @@ func main() {
 	kode := flag.String("k", "", "Kode TPS (13 digit)")
 	flag.Parse()
 
-	if *kode == "" {
-		fmt.Println("Error: Membutuhkan kode TPS sebagai argumen (-k)")
+	if *kode == "" || len(*kode) != 13 {
+		fmt.Println("Error: Membutuhkan kode TPS (13 digit) sebagai argumen [-k]")
 		os.Exit(1)
 	}
 
