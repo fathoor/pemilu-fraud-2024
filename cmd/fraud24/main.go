@@ -1,29 +1,21 @@
 package main
 
 import (
-	"flag"
 	"fmt"
-	"github.com/fathoor/fraud24/cmd/fraud24/service"
-	"os"
+	"github.com/fathoor/fraud24/internal/config"
+	"github.com/fathoor/fraud24/internal/exception"
+	"github.com/fathoor/fraud24/internal/provider"
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
-	kode := flag.String("k", "", "Kode TPS (13 digit)")
-	flag.Parse()
+	var (
+		cfg = config.ProvideConfig()
+		app = config.ProvideApp()
+	)
 
-	if *kode == "" || len(*kode) != 13 {
-		fmt.Println("Error: Membutuhkan kode TPS (13 digit) sebagai argumen [-k]")
-		os.Exit(1)
-	}
+	provider.ProvideModule(app)
 
-	fraud := service.ProvideFraudService()
-	result := fraud.FraudCheck(*kode)
-
-	if result != "" {
-		fmt.Println(result)
-	} else {
-		fmt.Println("Tidak terdeteksi kecurangan")
-	}
-
-	os.Exit(0)
+	err := app.Listen(fmt.Sprintf(":%s", cfg.Get("APP_PORT")))
+	exception.PanicIfNeeded(err)
 }
