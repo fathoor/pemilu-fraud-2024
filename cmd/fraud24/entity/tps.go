@@ -5,8 +5,8 @@ type TPS struct {
 	Images       []string       `json:"images"`
 	Administrasi struct {
 		SuaraSah      int `json:"suara_sah"`
-		SuaraTotal    int `json:"suara_total"`
 		SuaraTidakSah int `json:"suara_tidak_sah"`
+		SuaraTotal    int `json:"suara_total"`
 	} `json:"administrasi"`
 	Ts          string `json:"ts"`
 	StatusSuara bool   `json:"status_suara"`
