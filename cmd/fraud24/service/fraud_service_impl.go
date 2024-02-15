@@ -15,7 +15,7 @@ type fraudServiceImpl struct {
 }
 
 func (f *fraudServiceImpl) FraudCheck() []entity.Fraud {
-	file, err := os.OpenFile("../../assets/KECAMATAN.json", os.O_RDWR, 0644)
+	file, err := os.OpenFile("/app/assets/KECAMATAN.json", os.O_RDWR, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()
@@ -89,7 +89,7 @@ func (f *fraudServiceImpl) FraudCheck() []entity.Fraud {
 	data, err := json.Marshal(response)
 	exception.PanicIfNeeded(err)
 
-	logs, err := os.OpenFile("../../logs/KOTA_SURABAYA.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	logs, err := os.OpenFile("/app/logs/KOTA_SURABAYA.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer logs.Close()
@@ -100,7 +100,7 @@ func (f *fraudServiceImpl) FraudCheck() []entity.Fraud {
 }
 
 func (f *fraudServiceImpl) FraudCheckCache() []entity.Fraud {
-	file, err := os.OpenFile("../../logs/KOTA_SURABAYA.json", os.O_RDONLY, 0644)
+	file, err := os.OpenFile("/app/logs/KOTA_SURABAYA.json", os.O_RDONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()

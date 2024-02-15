@@ -18,13 +18,6 @@ func (f *fraudControllerImpl) Route(app *fiber.App) {
 }
 
 func (f *fraudControllerImpl) FraudCheck(ctx *fiber.Ctx) error {
-	//provinsi := ctx.Query("provinsi")
-	//if provinsi == "" {
-	//	panic(exception.BadRequestError{
-	//		Message: "Provinsi tidak boleh kosong",
-	//	})
-	//}
-
 	fraud := f.fraudService.FraudCheck()
 
 	return ctx.Status(fiber.StatusOK).JSON(fraud)

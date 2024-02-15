@@ -1,21 +1,16 @@
 package main
 
 import (
-	"fmt"
 	"github.com/fathoor/fraud24/internal/config"
 	"github.com/fathoor/fraud24/internal/exception"
 	"github.com/fathoor/fraud24/internal/provider"
-	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
-	var (
-		cfg = config.ProvideConfig()
-		app = config.ProvideApp()
-	)
+	var app = config.ProvideApp()
 
 	provider.ProvideModule(app)
 
-	err := app.Listen(fmt.Sprintf(":%s", cfg.Get("APP_PORT")))
+	err := app.Listen(":2024")
 	exception.PanicIfNeeded(err)
 }

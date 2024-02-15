@@ -37,7 +37,7 @@ func GetProvinsi() {
 	data, err := json.Marshal(result)
 	exception.PanicIfNeeded(err)
 
-	file, err := os.OpenFile("../../assets/PROVINSI.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	file, err := os.OpenFile("/app/assets/PROVINSI.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()
@@ -46,7 +46,7 @@ func GetProvinsi() {
 }
 
 func GetKota() {
-	file, err := os.OpenFile("../../assets/PROVINSI.json", os.O_RDWR, 0644)
+	file, err := os.OpenFile("/app/assets/PROVINSI.json", os.O_RDWR, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()
@@ -70,7 +70,7 @@ func GetKota() {
 	data, err := json.Marshal(result)
 	exception.PanicIfNeeded(err)
 
-	f, err := os.OpenFile("../../assets/KOTA.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("/app/assets/KOTA.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer f.Close()
@@ -79,7 +79,7 @@ func GetKota() {
 }
 
 func GetKecamatan() {
-	//file, err := os.OpenFile("../../assets/KOTA.json", os.O_RDWR, 0644)
+	//file, err := os.OpenFile("/app/assets/KOTA.json", os.O_RDWR, 0644)
 	//exception.PanicIfNeeded(err)
 	//
 	//defer file.Close()
@@ -118,7 +118,7 @@ func GetKecamatan() {
 	data, err := json.Marshal(result)
 	exception.PanicIfNeeded(err)
 
-	f, err := os.OpenFile("../../assets/KECAMATAN.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("/app/assets/KECAMATAN.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer f.Close()
@@ -127,7 +127,7 @@ func GetKecamatan() {
 }
 
 func GetKelurahan() {
-	file, err := os.OpenFile("../../assets/KECAMATAN.json", os.O_RDWR, 0644)
+	file, err := os.OpenFile("/app/assets/KECAMATAN.json", os.O_RDWR, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()
@@ -151,7 +151,7 @@ func GetKelurahan() {
 	data, err := json.Marshal(result)
 	exception.PanicIfNeeded(err)
 
-	f, err := os.OpenFile("../../assets/KELURAHAN.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("/app/assets/KELURAHAN.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer f.Close()
@@ -160,7 +160,7 @@ func GetKelurahan() {
 }
 
 func GetTPS() {
-	file, err := os.OpenFile("../../assets/KELURAHAN.json", os.O_RDWR, 0644)
+	file, err := os.OpenFile("/app/assets/KELURAHAN.json", os.O_RDWR, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer file.Close()
@@ -184,7 +184,7 @@ func GetTPS() {
 	data, err := json.Marshal(result)
 	exception.PanicIfNeeded(err)
 
-	f, err := os.OpenFile("../../assets/TPS.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
+	f, err := os.OpenFile("/app/assets/TPS.json", os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0644)
 	exception.PanicIfNeeded(err)
 
 	defer f.Close()
