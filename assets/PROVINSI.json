@@ -1,0 +1,158 @@
+[
+  {
+    "nama": "ACEH",
+    "kode": "11"
+  },
+  {
+    "nama": "BALI",
+    "kode": "51"
+  },
+  {
+    "nama": "BANTEN",
+    "kode": "36"
+  },
+  {
+    "nama": "BENGKULU",
+    "kode": "17"
+  },
+  {
+    "nama": "DAERAH ISTIMEWA YOGYAKARTA",
+    "kode": "34"
+  },
+  {
+    "nama": "DKI JAKARTA",
+    "kode": "31"
+  },
+  {
+    "nama": "GORONTALO",
+    "kode": "75"
+  },
+  {
+    "nama": "JAMBI",
+    "kode": "15"
+  },
+  {
+    "nama": "JAWA BARAT",
+    "kode": "32"
+  },
+  {
+    "nama": "JAWA TENGAH",
+    "kode": "33"
+  },
+  {
+    "nama": "JAWA TIMUR",
+    "kode": "35"
+  },
+  {
+    "nama": "KALIMANTAN BARAT",
+    "kode": "61"
+  },
+  {
+    "nama": "KALIMANTAN SELATAN",
+    "kode": "63"
+  },
+  {
+    "nama": "KALIMANTAN TENGAH",
+    "kode": "62"
+  },
+  {
+    "nama": "KALIMANTAN TIMUR",
+    "kode": "64"
+  },
+  {
+    "nama": "KALIMANTAN UTARA",
+    "kode": "65"
+  },
+  {
+    "nama": "KEPULAUAN BANGKA BELITUNG",
+    "kode": "19"
+  },
+  {
+    "nama": "KEPULAUAN RIAU",
+    "kode": "21"
+  },
+  {
+    "nama": "LAMPUNG",
+    "kode": "18"
+  },
+  {
+    "nama": "LUAR NEGERI",
+    "kode": "99"
+  },
+  {
+    "nama": "MALUKU",
+    "kode": "81"
+  },
+  {
+    "nama": "MALUKU UTARA",
+    "kode": "82"
+  },
+  {
+    "nama": "NUSA TENGGARA BARAT",
+    "kode": "52"
+  },
+  {
+    "nama": "NUSA TENGGARA TIMUR",
+    "kode": "53"
+  },
+  {
+    "nama": "P A P U A",
+    "kode": "91"
+  },
+  {
+    "nama": "PAPUA BARAT",
+    "kode": "92"
+  },
+  {
+    "nama": "PAPUA BARAT DAYA",
+    "kode": "96"
+  },
+  {
+    "nama": "PAPUA PEGUNUNGAN",
+    "kode": "95"
+  },
+  {
+    "nama": "PAPUA SELATAN",
+    "kode": "93"
+  },
+  {
+    "nama": "PAPUA TENGAH",
+    "kode": "94"
+  },
+  {
+    "nama": "RIAU",
+    "kode": "14"
+  },
+  {
+    "nama": "SULAWESI BARAT",
+    "kode": "76"
+  },
+  {
+    "nama": "SULAWESI SELATAN",
+    "kode": "73"
+  },
+  {
+    "nama": "SULAWESI TENGAH",
+    "kode": "72"
+  },
+  {
+    "nama": "SULAWESI TENGGARA",
+    "kode": "74"
+  },
+  {
+    "nama": "SULAWESI UTARA",
+    "kode": "71"
+  },
+  {
+    "nama": "SUMATERA BARAT",
+    "kode": "13"
+  },
+  {
+    "nama": "SUMATERA SELATAN",
+    "kode": "16"
+  },
+  {
+    "nama": "SUMATERA UTARA",
+    "kode": "12"
+  }
+]

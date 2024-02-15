@@ -1,9 +1,7 @@
 # GoLand
 .idea
 
-# Environment variables
-.env
-
 # Logs
 *.json
+!assets/*.json
 !KOTA_SURABAYA.json

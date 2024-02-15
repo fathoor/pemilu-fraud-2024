@@ -1,0 +1,614 @@
+[
+  {
+    "nama": "ASEM ROWO",
+    "kode": "3578281001"
+  },
+  {
+    "nama": "GENTING KALIANAK",
+    "kode": "3578281002"
+  },
+  {
+    "nama": "TAMBAK SARIOSO",
+    "kode": "3578281005"
+  },
+  {
+    "nama": "KANDANGAN",
+    "kode": "3578191001"
+  },
+  {
+    "nama": "ROMOKALISARI",
+    "kode": "3578191005"
+  },
+  {
+    "nama": "SEMEMI",
+    "kode": "3578191003"
+  },
+  {
+    "nama": "TAMBAK OSO WILANGUN",
+    "kode": "3578191004"
+  },
+  {
+    "nama": "ALUN-ALUN CONTONG",
+    "kode": "3578131001"
+  },
+  {
+    "nama": "BUBUTAN",
+    "kode": "3578131002"
+  },
+  {
+    "nama": "GUNDIH",
+    "kode": "3578131003"
+  },
+  {
+    "nama": "JEPARA",
+    "kode": "3578131004"
+  },
+  {
+    "nama": "TEMBOK DUKUH",
+    "kode": "3578131005"
+  },
+  {
+    "nama": "BULAK",
+    "kode": "3578291004"
+  },
+  {
+    "nama": "KEDUNG COWEK",
+    "kode": "3578291001"
+  },
+  {
+    "nama": "KENJERAN",
+    "kode": "3578291003"
+  },
+  {
+    "nama": "SUKOLILO BARU",
+    "kode": "3578291005"
+  },
+  {
+    "nama": "DUKUH KUPANG",
+    "kode": "3578211002"
+  },
+  {
+    "nama": "DUKUH PAKIS",
+    "kode": "3578211001"
+  },
+  {
+    "nama": "GUNUNG SARI",
+    "kode": "3578211003"
+  },
+  {
+    "nama": "PRADAH KALIKENDAL",
+    "kode": "3578211004"
+  },
+  {
+    "nama": "DUKUH MENANGGAL",
+    "kode": "3578221003"
+  },
+  {
+    "nama": "GAYUNGAN",
+    "kode": "3578221001"
+  },
+  {
+    "nama": "KETINTANG",
+    "kode": "3578221004"
+  },
+  {
+    "nama": "MENANGGAL",
+    "kode": "3578221002"
+  },
+  {
+    "nama": "EMBONG KALIASIN",
+    "kode": "3578071001"
+  },
+  {
+    "nama": "GENTENG",
+    "kode": "3578071002"
+  },
+  {
+    "nama": "KAPASARI",
+    "kode": "3578071003"
+  },
+  {
+    "nama": "KETABANG",
+    "kode": "3578071004"
+  },
+  {
+    "nama": "PENELEH",
+    "kode": "3578071005"
+  },
+  {
+    "nama": "AIRLANGGA",
+    "kode": "3578081003"
+  },
+  {
+    "nama": "BARATAJAYA",
+    "kode": "3578081005"
+  },
+  {
+    "nama": "GUBENG",
+    "kode": "3578081001"
+  },
+  {
+    "nama": "KERTAJAYA",
+    "kode": "3578081004"
+  },
+  {
+    "nama": "MOJO",
+    "kode": "3578081002"
+  },
+  {
+    "nama": "PUCANG SEWU",
+    "kode": "3578081006"
+  },
+  {
+    "nama": "GUNUNG ANYAR",
+    "kode": "3578251001"
+  },
+  {
+    "nama": "GUNUNG ANYAR TAMBAK",
+    "kode": "3578251004"
+  },
+  {
+    "nama": "RUNGKUT MENANGGAL",
+    "kode": "3578251003"
+  },
+  {
+    "nama": "RUNGKUT TENGAH",
+    "kode": "3578251002"
+  },
+  {
+    "nama": "JAMBANGAN",
+    "kode": "3578231001"
+  },
+  {
+    "nama": "KARAH",
+    "kode": "3578231002"
+  },
+  {
+    "nama": "KEBONSARI",
+    "kode": "3578231003"
+  },
+  {
+    "nama": "PAGESANGAN",
+    "kode": "3578231004"
+  },
+  {
+    "nama": "KARANG PILANG",
+    "kode": "3578011001"
+  },
+  {
+    "nama": "KEBRAON",
+    "kode": "3578011002"
+  },
+  {
+    "nama": "KEDURUS",
+    "kode": "3578011003"
+  },
+  {
+    "nama": "WARU GUNUNG",
+    "kode": "3578011004"
+  },
+  {
+    "nama": "BULAK BANTENG",
+    "kode": "3578171003"
+  },
+  {
+    "nama": "SIDOTOPO WETAN",
+    "kode": "3578171002"
+  },
+  {
+    "nama": "TAMBAK WEDI",
+    "kode": "3578171004"
+  },
+  {
+    "nama": "TANAH KALI KEDINDING",
+    "kode": "3578171001"
+  },
+  {
+    "nama": "DUPAK",
+    "kode": "3578151004"
+  },
+  {
+    "nama": "KEMAYORAN",
+    "kode": "3578151002"
+  },
+  {
+    "nama": "KREMBANGAN SELATAN",
+    "kode": "3578151001"
+  },
+  {
+    "nama": "MOROKREMBANGAN",
+    "kode": "3578151005"
+  },
+  {
+    "nama": "PERAK BARAT",
+    "kode": "3578151003"
+  },
+  {
+    "nama": "BANGKINGAN",
+    "kode": "3578181001"
+  },
+  {
+    "nama": "JERUK",
+    "kode": "3578181002"
+  },
+  {
+    "nama": "LAKARSANTRI",
+    "kode": "3578181003"
+  },
+  {
+    "nama": "LIDAH KULON",
+    "kode": "3578181004"
+  },
+  {
+    "nama": "LIDAH WETAN",
+    "kode": "3578181005"
+  },
+  {
+    "nama": "SUMURWELUT",
+    "kode": "3578181006"
+  },
+  {
+    "nama": "DUKUH SUTOREJO",
+    "kode": "3578261005"
+  },
+  {
+    "nama": "KALIJUDAN",
+    "kode": "3578261006"
+  },
+  {
+    "nama": "KALISARI",
+    "kode": "3578261004"
+  },
+  {
+    "nama": "KEJAWAN PUTIH TAMBAK",
+    "kode": "3578261003"
+  },
+  {
+    "nama": "MANYAR SABRANGAN",
+    "kode": "3578261002"
+  },
+  {
+    "nama": "MULYOREJO",
+    "kode": "3578261001"
+  },
+  {
+    "nama": "BONGKARAN",
+    "kode": "3578121001"
+  },
+  {
+    "nama": "KREMBANGAN UTARA",
+    "kode": "3578121003"
+  },
+  {
+    "nama": "NYAMPLUNGAN",
+    "kode": "3578121002"
+  },
+  {
+    "nama": "TANJUNG PERAK",
+    "kode": "3578121006"
+  },
+  {
+    "nama": "BABAT JERAWAT",
+    "kode": "3578301002"
+  },
+  {
+    "nama": "BENOWO",
+    "kode": "3578301005"
+  },
+  {
+    "nama": "PAKAL",
+    "kode": "3578301001"
+  },
+  {
+    "nama": "SUMBER REJO",
+    "kode": "3578301004"
+  },
+  {
+    "nama": "KALIRUNGKUT",
+    "kode": "3578031001"
+  },
+  {
+    "nama": "KEDUNG BARUK",
+    "kode": "3578031003"
+  },
+  {
+    "nama": "MEDOKAN AYU",
+    "kode": "3578031006"
+  },
+  {
+    "nama": "PENJARINGANSARI",
+    "kode": "3578031004"
+  },
+  {
+    "nama": "RUNGKUT KIDUL",
+    "kode": "3578031002"
+  },
+  {
+    "nama": "WONOREJO",
+    "kode": "3578031005"
+  },
+  {
+    "nama": "BERINGIN",
+    "kode": "3578311003"
+  },
+  {
+    "nama": "LONTAR",
+    "kode": "3578311004"
+  },
+  {
+    "nama": "MADE",
+    "kode": "3578311002"
+  },
+  {
+    "nama": "SAMBIKEREP",
+    "kode": "3578311001"
+  },
+  {
+    "nama": "BANYU URIP",
+    "kode": "3578061003"
+  },
+  {
+    "nama": "KUPANG KRAJAN",
+    "kode": "3578061005"
+  },
+  {
+    "nama": "PAKIS",
+    "kode": "3578061006"
+  },
+  {
+    "nama": "PETEMON",
+    "kode": "3578061001"
+  },
+  {
+    "nama": "PUTAT JAYA",
+    "kode": "3578061004"
+  },
+  {
+    "nama": "SAWAHAN",
+    "kode": "3578061002"
+  },
+  {
+    "nama": "AMPEL",
+    "kode": "3578161001"
+  },
+  {
+    "nama": "PEGIRIAN",
+    "kode": "3578161002"
+  },
+  {
+    "nama": "SIDOTOPO",
+    "kode": "3578161005"
+  },
+  {
+    "nama": "UJUNG",
+    "kode": "3578161004"
+  },
+  {
+    "nama": "WONOKUSUMO",
+    "kode": "3578161003"
+  },
+  {
+    "nama": "KAPASAN",
+    "kode": "3578111002"
+  },
+  {
+    "nama": "SIDODADI",
+    "kode": "3578111003"
+  },
+  {
+    "nama": "SIMOKERTO",
+    "kode": "3578111001"
+  },
+  {
+    "nama": "SIMOLAWANG",
+    "kode": "3578111004"
+  },
+  {
+    "nama": "TAMBAKREJO",
+    "kode": "3578111005"
+  },
+  {
+    "nama": "GEBANG PUTIH",
+    "kode": "3578091002"
+  },
+  {
+    "nama": "KEPUTIH",
+    "kode": "3578091001"
+  },
+  {
+    "nama": "KLAMPIS NGASEM",
+    "kode": "3578091003"
+  },
+  {
+    "nama": "MEDOKAN SEMAMPIR",
+    "kode": "3578091007"
+  },
+  {
+    "nama": "MENUR PUMPUNGAN",
+    "kode": "3578091004"
+  },
+  {
+    "nama": "NGINDEN JANGKUNGAN",
+    "kode": "3578091005"
+  },
+  {
+    "nama": "SEMOLOWARU",
+    "kode": "3578091006"
+  },
+  {
+    "nama": "PUTAT GEDE",
+    "kode": "3578271004"
+  },
+  {
+    "nama": "SIMOMULYO",
+    "kode": "3578271005"
+  },
+  {
+    "nama": "SIMOMULYO BARU",
+    "kode": "3578271006"
+  },
+  {
+    "nama": "SONOKWIJENAN",
+    "kode": "3578271003"
+  },
+  {
+    "nama": "SUKOMANUNGGAL",
+    "kode": "3578271001"
+  },
+  {
+    "nama": "TANJUNGSARI",
+    "kode": "3578271002"
+  },
+  {
+    "nama": "DUKUH SETRO",
+    "kode": "3578101008"
+  },
+  {
+    "nama": "GADING",
+    "kode": "3578101003"
+  },
+  {
+    "nama": "KAPASMADYA BARU",
+    "kode": "3578101007"
+  },
+  {
+    "nama": "PACARKELING",
+    "kode": "3578101006"
+  },
+  {
+    "nama": "PACARKEMBANG",
+    "kode": "3578101004"
+  },
+  {
+    "nama": "PLOSO",
+    "kode": "3578101002"
+  },
+  {
+    "nama": "RANGKAH",
+    "kode": "3578101005"
+  },
+  {
+    "nama": "TAMBAKSARI",
+    "kode": "3578101001"
+  },
+  {
+    "nama": "BALONGSARI",
+    "kode": "3578141007"
+  },
+  {
+    "nama": "BANJAR SUGIHAN",
+    "kode": "3578141012"
+  },
+  {
+    "nama": "KARANG POH",
+    "kode": "3578141006"
+  },
+  {
+    "nama": "MANUKAN KULON",
+    "kode": "3578141009"
+  },
+  {
+    "nama": "MANUKAN WETAN",
+    "kode": "3578141011"
+  },
+  {
+    "nama": "TANDES",
+    "kode": "3578141002"
+  },
+  {
+    "nama": "DR. SOETOMO",
+    "kode": "3578051002"
+  },
+  {
+    "nama": "KEDUNGDORO",
+    "kode": "3578051003"
+  },
+  {
+    "nama": "KEPUTRAN",
+    "kode": "3578051004"
+  },
+  {
+    "nama": "TEGALSARI",
+    "kode": "3578051001"
+  },
+  {
+    "nama": "WONOREJO",
+    "kode": "3578051005"
+  },
+  {
+    "nama": "KENDANGSARI",
+    "kode": "3578241002"
+  },
+  {
+    "nama": "KUTISARI",
+    "kode": "3578241001"
+  },
+  {
+    "nama": "PANJANG JIWO",
+    "kode": "3578241004"
+  },
+  {
+    "nama": "TENGGILIS MEJOYO",
+    "kode": "3578241003"
+  },
+  {
+    "nama": "BABATAN",
+    "kode": "3578201003"
+  },
+  {
+    "nama": "BALAS KLUMPRIK",
+    "kode": "3578201004"
+  },
+  {
+    "nama": "JAJAR TUNGGAL",
+    "kode": "3578201002"
+  },
+  {
+    "nama": "WIYUNG",
+    "kode": "3578201001"
+  },
+  {
+    "nama": "BENDUL MERISI",
+    "kode": "3578021002"
+  },
+  {
+    "nama": "JEMUR WONOSARI",
+    "kode": "3578021004"
+  },
+  {
+    "nama": "MARGOREJO",
+    "kode": "3578021003"
+  },
+  {
+    "nama": "SIDOSERMO",
+    "kode": "3578021001"
+  },
+  {
+    "nama": "SIWALANKERTO",
+    "kode": "3578021005"
+  },
+  {
+    "nama": "DARMO",
+    "kode": "3578041005"
+  },
+  {
+    "nama": "JAGIR",
+    "kode": "3578041002"
+  },
+  {
+    "nama": "NGAGEL",
+    "kode": "3578041003"
+  },
+  {
+    "nama": "NGAGEL REJO",
+    "kode": "3578041004"
+  },
+  {
+    "nama": "SAWUNGGALING",
+    "kode": "3578041006"
+  },
+  {
+    "nama": "WONOKROMO",
+    "kode": "3578041001"
+  }
+]
