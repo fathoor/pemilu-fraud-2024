@@ -1,0 +1,4 @@
+# Logs
+*.json
+!KECAMATAN.json
+!KOTA_SURABAYA.json

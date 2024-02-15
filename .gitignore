@@ -6,4 +6,5 @@
 
 # Logs
 *.json
+!assets/*.json
 !KOTA_SURABAYA.json
