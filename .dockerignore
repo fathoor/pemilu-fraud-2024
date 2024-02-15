@@ -1,4 +1,4 @@
 # Logs
 *.json
-!KECAMATAN.json
-!KOTA_SURABAYA.json
+!assets/KECAMATAN.json
+!logs/KOTA_SURABAYA.json

@@ -1,0 +1,18 @@
+services:
+  fraud:
+    container_name: fraud
+    image: mfathoor/fraud24:latest
+    ports:
+      - 2024:2024
+    volumes:
+      - fraud:/usr/src/app
+    networks:
+      fraud:
+    restart: on-failure
+
+volumes:
+  fraud:
+
+networks:
+  fraud:
+    external: true
