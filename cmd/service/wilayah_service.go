@@ -1,5 +1,5 @@
 package service
 
 type WilayahService interface {
-	InitWilayah()
+	GetWilayah()
 }

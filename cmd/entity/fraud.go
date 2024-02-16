@@ -1,8 +1,9 @@
 package entity
 
 type Fraud struct {
-	KodeTPS string `json:"kode_tps"`
-	Suara   struct {
+	Kode      string `json:"kode"`
+	Timestamp string `json:"timestamp"`
+	Suara     struct {
 		SuaraSah      int `json:"suara_sah"`
 		SuaraTidakSah int `json:"suara_tidak_sah"`
 		SuaraTotal    int `json:"suara_total"`
@@ -17,7 +18,6 @@ type Fraud struct {
 	Kecamatan string   `json:"kecamatan"`
 	Kelurahan string   `json:"kelurahan"`
 	TPS       string   `json:"tps"`
-	Image     []string `json:"image"`
+	Images    []string `json:"images"`
 	URL       string   `json:"url"`
-	Timestamp string   `json:"timestamp"`
 }
