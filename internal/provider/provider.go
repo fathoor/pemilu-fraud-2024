@@ -1,8 +1,8 @@
 package provider
 
 import (
-	"github.com/fathoor/fraud24/cmd/fraud24/controller"
-	"github.com/fathoor/fraud24/cmd/fraud24/service"
+	"github.com/fathoor/pemilu-fraud-2024/cmd/controller"
+	"github.com/fathoor/pemilu-fraud-2024/cmd/service"
 	"github.com/gofiber/fiber/v2"
 )
 
