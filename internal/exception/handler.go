@@ -2,7 +2,7 @@ package exception
 
 import (
 	"errors"
-	"github.com/fathoor/fraud24/cmd/fraud24/entity"
+	"github.com/fathoor/pemilu-fraud-2024/cmd/entity"
 	"github.com/gofiber/fiber/v2"
 )
 

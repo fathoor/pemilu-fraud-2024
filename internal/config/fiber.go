@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/fathoor/fraud24/internal/exception"
+	"github.com/fathoor/pemilu-fraud-2024/internal/exception"
 	"github.com/gofiber/fiber/v2"
 )
 

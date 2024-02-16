@@ -1,18 +1,15 @@
 services:
-  fraud:
-    container_name: fraud
-    image: mfathoor/fraud24:latest
+  pemilu-fraud:
+    container_name: pemilu-fraud
+    image: mfathoor/pemilu-fraud-2024:latest
     ports:
       - 2024:2024
     volumes:
-      - fraud:/usr/src/app
+      - ./logs:/app/logs
     networks:
-      fraud:
+      pemilu-fraud:
     restart: on-failure
 
-volumes:
-  fraud:
-
 networks:
-  fraud:
+  pemilu-fraud:
     external: true

@@ -4,7 +4,7 @@ import "github.com/gofiber/fiber/v2"
 
 type FraudController interface {
 	Route(app *fiber.App)
-	FraudCheck(ctx *fiber.Ctx) error
-	FraudCheckCache(ctx *fiber.Ctx) error
-	InitWilayah(ctx *fiber.Ctx) error
+	GetFraud(ctx *fiber.Ctx) error
+	UpdateFraud(ctx *fiber.Ctx) error
+	GetWilayah(ctx *fiber.Ctx) error
 }

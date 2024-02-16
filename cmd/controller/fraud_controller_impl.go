@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/fathoor/fraud24/cmd/fraud24/entity"
-	"github.com/fathoor/fraud24/cmd/fraud24/service"
+	"github.com/fathoor/pemilu-fraud-2024/cmd/entity"
+	"github.com/fathoor/pemilu-fraud-2024/cmd/service"
 	"github.com/gofiber/fiber/v2"
 )
 
@@ -12,25 +12,29 @@ type fraudControllerImpl struct {
 }
 
 func (f *fraudControllerImpl) Route(app *fiber.App) {
-	app.Get("/", f.FraudCheck)
-	app.Get("/cache", f.FraudCheckCache)
-	app.Get("/init", f.InitWilayah)
+	app.Get("/", f.GetFraud)
+	app.Get("/fraud", f.UpdateFraud)
+	app.Get("/wilayah", f.GetWilayah)
 }
 
-func (f *fraudControllerImpl) FraudCheck(ctx *fiber.Ctx) error {
-	fraud := f.fraudService.FraudCheck()
+func (f *fraudControllerImpl) GetFraud(ctx *fiber.Ctx) error {
+	kota := ctx.Query("kota")
+
+	fraud := f.fraudService.FraudCache(kota)
 
 	return ctx.Status(fiber.StatusOK).JSON(fraud)
 }
 
-func (f *fraudControllerImpl) FraudCheckCache(ctx *fiber.Ctx) error {
-	fraud := f.fraudService.FraudCheckCache()
+func (f *fraudControllerImpl) UpdateFraud(ctx *fiber.Ctx) error {
+	kota := ctx.Query("kota")
+
+	fraud := f.fraudService.FraudCheck(kota)
 
 	return ctx.Status(fiber.StatusOK).JSON(fraud)
 }
 
-func (f *fraudControllerImpl) InitWilayah(ctx *fiber.Ctx) error {
-	f.wilayahService.InitWilayah()
+func (f *fraudControllerImpl) GetWilayah(ctx *fiber.Ctx) error {
+	f.wilayahService.GetWilayah()
 
 	return ctx.Status(fiber.StatusOK).JSON(entity.Response{
 		Code:   fiber.StatusOK,

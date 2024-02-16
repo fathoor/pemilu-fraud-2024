@@ -1,4 +1,4 @@
-module github.com/fathoor/fraud24
+module github.com/fathoor/pemilu-fraud-2024
 
 go 1.22.0
 
